@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 100px;
+    /* background: #38598b; */
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJKvtPZtbVO9r6ZY2gtClOd_FjEwrXbJROGUzH6iw2ZOuOLmHM);
+    background-size: cover;
+    color: #113f67;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* /* font-family: 'Vollkorn SC', serif; */
+    font-family: 'Vollkorn', serif;
+}
+
+.title {
+    padding: 50px 0px 20px 0px;
+    /* font-family:'Fascinate Inline', cursive; */
+    font-family: 'Vollkorn SC', serif;
+    color: #e7eaf6;
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    color: #e7eaf6;
+    font-size: 2.3em;
+    line-height: 1;
+}
+
+hr {
+    width: 20%;
+    margin-left: 0;
+}
+
+h4 {
+    color: #113f67;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.top {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.top input {
+    width: 50%;
+    height: 50px;
+    font-size: 1.1em;
+    color: #113f67;
+    border: none;
+    border-radius: 10px;
+    box-shadow: black 10px 18px 36px;
+    outline-color: #113f67;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.top button {
+    color: #113f67;
+    border: #38598b 1px solid;
+    margin-left: 5px;
+    font-size: 1.4em;
+}
+
+.top button:hover {
+    cursor: pointer;
+    background: #e7eaf6;
+    color: #38598b;
+}
+
+/* HOME */
+.home {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    /* box-shadow: #000200 2px 3px 5px 2px; */
+}
+
+.home h3 {
+    padding-top: 50px;
+    color: #e7eaf6;
+    font-size: 2em;
+    line-height: 1;
+}
+
+.home-movies {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.home-movie-item {
+    width: 30%;
+    height: 500px;
+    box-shadow: rgba(255, 255, 255, .5) 2px 3px 5px 5px;
+}
+
+.home-movie-item:hover {
+    transform: scale(.9);
+    transition: .3s;
+}
+
+.movie1 {
+    /* background: url(https://cnet2.cbsistatic.com/img/nLXD_eUqNw5sXRcq1pnah2iV-k0=/940x0/2019/03/14/dd4d8d9c-5f16-4f6b-a7d8-65a00d095c2c/avengers-endgame-poster-square-crop.jpg); */
+    background: url(https://img.fmovies.pl/media/imagesv2/2018/12/avengers-endgame-2019.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.movie2 {
+    background: url(https://lumiere-a.akamaihd.net/v1/images/uk_the-lion-king_teaser-poster_r_e423d0a5.jpeg?region=0,0,1152,1620);
+    background-size: cover;
+    background-position: center;
+}
+
+.movie3 {
+    background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kids-movies-2019-the-kid-who-would-be-king-1543259868.jpg?crop=0.9876543209876543xw:1xh;center,top&resize=480:*);
+    background-size: cover;
+    background-position: center;
+}
+
+.movie4 {
+    background: url(https://i.pinimg.com/originals/fe/db/cd/fedbcd032c653444703b1de20f16dd1d.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.movie5 {
+    background: url(https://www.joblo.com/assets/images/oldsite/posters/images/full/dumbo-poster-main.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.movie6 {
+    background: url(https://i.pinimg.com/originals/11/0c/a1/110ca1fb5919f4f0f341c0555aa1e39b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home2 {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    /* box-shadow: #000200 2px 3px 5px 2px; */
+}
+
+.home-series {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.home2 h3 {
+    padding-top: 50px;
+    color: #e7eaf6;
+    font-size: 2em;
+    line-height: 1;
+}
+
+.home-series-item {
+    width: 30%;
+    height: 300px;
+    box-shadow: rgba(255, 255, 255, .5) 2px 3px 5px 5px;
+    margin: 20px auto;
+}
+
+
+.home-series-item:hover {
+    transform: scale(.9);
+    transition: .3s;
+}
+
+.series1 {
+    background: url(https://statics.lesinrocks.com/content/thumbs/uploads/2019/02/width-1125-height-612/got-1-bon-2.jpg);
+    background-size: cover;
+    background-position: 350px;
+}
+
+
+.series2 {
+    background: url(https://img.huffingtonpost.com/asset/5bd3045d2200000f03dda1db.jpeg?ops=scalefit_630_noupscale);
+    background-size: cover;
+    background-position: center;
+}
+
+.series3 {
+    background: url(http://fr.web.img5.acsta.net/newsv7/19/03/20/13/38/4529620.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.series4 {
+    background: url(https://www.syfy.com/sites/syfy/files/styles/1200x680/public/2018/03/westworld_0.jpg);
+    background-size: cover;
+    background-position: 350px;
+}
+
+.series5 {
+    background: url(https://media.begeek.fr/2018/11/The-Walking-Dead-saison-9-AMC.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.series6 {
+    background: url(https://pmcvariety.files.wordpress.com/2017/03/shadowhunters-freeform.jpg?w=1000&h=562&crop=1);
+    background-size: cover;
+    background-position: center;
+}
+
+/* RESULTS */
+.results {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.film {
+    margin-top: 100px;
+    width: 30%;
+    height: 500px;
+    box-shadow: rgba(255, 255, 255, .5) 2px 3px 5px 5px;
+}
+
+.film:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.film-img img {
+    margin-top: 100px;
+    height: 600px;
+    box-shadow: rgba(255, 255, 255, .5) 2px 3px 5px 5px;
+}
+
+.movie {
+    width: 80%;
+    /* background: #e7eaf6; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #e7eaf6;
+}
+
+.movie-info {
+    margin-top: 100px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.movie-info {
+    color: #e7eaf6;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.movie-info span {
+    color: #113f67;
+}
+
+/* footer {
+    height: 100px;
+    width:100% ;
+    background: #000200;
+} */
